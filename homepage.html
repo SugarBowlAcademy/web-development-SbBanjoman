@@ -1,32 +1,45 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>Ben Strahan's Page</title>
+
+  <link href="hp.css" type="text/css"
+      rel="stylesheet" />
   </head>
 
 
-  <body style=background-color:#c2e1ed>
-    <!--Inside the body tag, I included the style tag and specified that I was changing the background colour. I set it to one I liked using its hex code.  -->
+  <body>
+
+    <div class= "menu">
+<button class="linkbtn">Menu</button>
+<div class="menucnt">
+  <a href="Cat.html">My Cat</a>
+  <a href="">Link</a>
+  <a href="">Link</a>
+</div>
+    </div>
+    <!--I included the style tag and specified background colour was beign changes.  -->
     <h1 style=text-align:center>Ben Strahan's Page</h1>
-    <img src="me.jpg" alt="This is a photo of Me" height=400 width=400 align=right rotate="90">
-    <!--Here, I used the img tag to insert this photo of me. The heght and width tags were used to make the image fit on the page.
-  The allign tag is used so that my image is pushed to the right of the test, so that I have my text alongside of the image instead of beneath it.
-I did have an issue trying to make the photo appear the correct orientation. I tried using the "rotate" tag, and ohers, but none made a change.  -->
-<a href="test.html">My Cat</a>
-<!--The "a" tag anchors the words "My Cat" with the link to the page displaying a photo and info about my cat. -->
-<br>
-<br>
-<!-- The "br" tag was used to create a break in the page to space the information out from the previous line to be easier to read -->
+
+    <img src="Ben.jpg" alt="This is a photo of Me" height=400 width=350>
+    <!-- used the img tag to insert photo. heght and width were used to make image fit on page.
+   align tag is used so image is pushed to the right of the text-->
+
+
+<div class="lists"
 <p>
 <b> Arbitrary list: </b>
 <!-- The "b" tag is used to bold the text that it stands out more than the list. It generates a heading effect without using the "h$" tag, which enlarges the text.  -->
 <ol>
-  <li>number 1</li>
-  <li>number 2</li>
-  <li>number 3</li>
+  <li>number <span class= num1>1</span> </li>
+  <li>number <span class= num2>2</span> </li>
+  <li>number <span class= num3>3</span></li>
 </ol>
 <!--I used the emmet package to make writing this list easier, the ordered list, "ol" tag was used along with the list item,"li" tag. (ol>li{number $}*3) was used to make the list. The brackets indicate text, and the "$" indicates that the correspoding number to the list item should be inserted in the text.   -->
+
+<div class="websites">
 <b> My favourite websites:</b>
 
 <ul>
@@ -35,6 +48,8 @@ I did have an issue trying to make the photo appear the correct orientation. I t
   <li><a href="http://netflix.com">Netflix</a></li>
 </ul>
 <!--I used almost the same code here as the previous list. instead of the "ol" tag I used the "ul" tag, for an unordered list. I used emmet to shorten the process; (ul>li{a}*3). Inside each of the anchors I inserted a link corresponding witht he text outside of the quotes.  -->
+</div>
+</div>
 </p>
   </body>
 </html>
