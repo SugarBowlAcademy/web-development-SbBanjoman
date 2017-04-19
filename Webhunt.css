@@ -1,0 +1,27 @@
+body{
+  background-color: hsl(193, 89%, 61%);
+}
+
+.red{
+  color: rgb(150,0,0);
+}
+
+.green{
+  color: rgb(0,150,0);
+}
+
+.blue {
+  color: rgb(0,0,150);
+}
+
+.hex {
+  color: #f49842;
+
+}
+
+img:hover{ opacity: .5
+ }
+
+ #this1{
+   color: hsla(60, 100%, 60%, 0.5)
+ }
