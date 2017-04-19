@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="script test.css">
+  </head>
+  <body>
+
+  <h1>Word</h1>
+  <div id=button1>
+  <button onclick="myFunction1()">correct</button>
+  </div>
+
+  <div id=button2>
+  <button onclick="myFunction2()">incorrect</button>
+</div>
+
+  </body>
+
+  <script>
+  function myFunction1() {
+      var x = document.getElementById("button1").firstChild.nextSibling.className="correct";
+    }
+  function myFunction2() {
+          var x = document.getElementById("button2").firstChild.nextSibling.className="incorrect";
+
+    }
+      </script>
+</html>
