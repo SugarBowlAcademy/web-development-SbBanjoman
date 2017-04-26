@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Grocery List</title>
+  </head>
+  <body>
+    <h1>Groceries</h1>
+    <input id=foodStuffs type="text" name="">
+   <button onclick= 'sumbit()'>Submit</button>
+  </body>
+
+  <script>
+  function submit()  {
+    var y = document.getElementById('foodStuffs').value;
+    const newEl = document.createElement('p');
+    const newText = document.createTextNode(y);
+    newEl.appendChild(newText);
+    const position = document.getElementsByTagName('body')[0];
+    position.appendChild(newEl);
+
+  }
+
+
+  </script>
+  </script>
+</html>
